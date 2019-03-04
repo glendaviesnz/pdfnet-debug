@@ -1,0 +1,3 @@
+(function () {
+    PDFNet.initialize();
+})();

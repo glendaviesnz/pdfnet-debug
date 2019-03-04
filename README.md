@@ -1,36 +1,27 @@
-# WebViewer
+# Webviewerdebug
 
-This is a download package of WebViewer that includes `lib`, `samples` and `doc`.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.4.
 
-- `lib` - source files for core, ui and ui-legacy
-- `samples` - running exmples for different use cases
-- `doc` - API documentation
+## Development server
 
-For more information about the product or company, please visit
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-- [Showcase](https://pdftron.com/webviewer/demo/)
-- [Guides](https://pdftron.com/documentation/web/guides/)
-- [Changelog](https://www.pdftron.com/documentation/web/changelog/)
-- [PDFTron Systems Inc](https://pdftron.com/)
+## Code scaffolding
 
-## Running samples
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-If you have [node](https://nodejs.org) installed, you can run the following commands:
+## Build
 
-```
-npm install
-npm start
-```
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-Alternatively, you can host your preferred local server at the root directory and open `/samples` in your browser.
+## Running unit tests
 
-## Viewing API documentation
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-If you have [node](https://nodejs.org) installed, you can run the following commands:
+## Running end-to-end tests
 
-```
-npm install
-npm run doc
-```
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-Alternatively, you can host your preferred local server at the root directory and open `/doc` in your browser.
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
