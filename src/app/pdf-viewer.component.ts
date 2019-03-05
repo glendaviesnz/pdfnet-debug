@@ -65,7 +65,7 @@ export class PdfViewerComponent implements OnDestroy, AfterViewInit {
                     fullAPI: true,
                     /* tslint:disable */
                     l:
-                        'Diligent Corporation(diligent.com):OEM:Diligent Boards::B+:AMS(20190116):4AA5612D0407E80AD360B13AC9A2737860615FB59F08CD3BD56425E4CF7218FE5A8AB6F5C7',
+                        '',
                     /* tslint:enable */
                 },
                 this.pdfViewerContainer.nativeElement
