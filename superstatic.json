@@ -1,0 +1,22 @@
+{
+    "options": {
+        "compression": true
+    },
+    "rewrites": [
+      {"source": "**", "destination": "/index.html"}
+    ],
+    "headers": [
+        {
+          "source" : "**/*.@(gz).*",
+          "headers" : [{
+            "key" : "Content-Encoding",
+            "value" : "gzip"
+          }]},
+          {
+            "source" : "**/*.@(br).*",
+            "headers" : [{
+              "key" : "Content-Encoding",
+              "value" : "br"
+            }]}
+    ]
+}
